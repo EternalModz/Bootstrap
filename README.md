@@ -2,7 +2,7 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/roothide/Bootstrap?style=social)](https://github.com/roothide/Bootstrap/stargazers)
 
-A full featured bootstrap for iOS 15.0-17.0 A8-A17 & M1+M2 using roothide.
+A full bootstrap for iOS 15.0-17.0 A8-A17 & M1+M2 using root hide.
 
 ##### *WARNING:* By using this software, you take full responsibility for what you do with it. Any unofficial modifications to your device may cause irreparable damage. Refer to the FAQ linked in the `Usage` section for safe usage of this software.
 
@@ -14,36 +14,36 @@ If you do not have access to MacOS, refer to the FAQ in the `Usage` section to b
 
 You'll need MacOS to build, as you require Xcode from the App Store. Simply having Xcode Command Line Tools is *insufficient*. Here's how to build the Bootstrap:
 
- 1. Update/Install Theos with roothide support
+ 1. Update/Install Theos with root hide support
     
     ```
     bash -c "$(curl -fsSL https://raw.githubusercontent.com/roothide/theos/master/bin/install-theos)"
     ```
     *If you encounter errors from a previous Theos installation, remove Theos in its entirety before continuing.*
 
- 2. Clone the GitHub repository and enter directory
+ 2. Clone the GitHub repository and enter the directory
 
     ```
     git clone https://github.com/roothide/Bootstrap/ && cd Bootstrap
     ```
 
- 3. Build `Bootstrap.tipa`
+ 3. Build `Bootstrap. tip
 
     ```
     make package
     ```
 
- 4. Transfer `Bootstrap.tipa` from `./packages/` to your device and install it with TrollStore
+ 4. Transfer `Bootstrap. tip from `./packages/` to your device and install it with TrollStore
 
 ## Usage
 
-The roothide Bootstrap application **must** be installed with [TrollStore](https://ios.cfw.guide/installing-trollstore/). Use version `2.0.9` or later for enabling developer mode on-device.
+The root hide Bootstrap application **must** be installed with [TrollStore](https://ios.cfw.guide/installing-trollstore/). Use version `2.0.9` or later to enable developer mode on-device.
 
-Tweaks not compiled or converted to roothide will not work out-of-the-box with roothide Bootstrap. Refer to the FAQ below on how to use roothide Patcher.
+Tweaks not compiled or converted to root hide will not work out-of-the-box with root hide Bootstrap. Refer to the FAQ below on how to use root hide Patcher.
 
-By design, roothide does not inject tweaks into any applications by default. To enable tweak injection into an application, press `App List` in the Bootstrap app, and enable the toggle of the application you want to inject into. Injection into `com.apple.springboard` or daemons is not possible with the roothide Bootstrap. Refer to the FAQ below on injection into `com.apple.springboard`.
+By design, root hide does not inject tweaks into any applications by default. To enable tweak injection into an application, press `App List` in the Bootstrap app, and enable the toggle of the application you want to inject into. Injection into `com.apple.springboard` or daemons is not possible with the root to hide Bootstrap. Refer to the FAQ below on injection into `com.apple.springboard`.
 
-**A roothide Bootstrap FAQ** is available [here](https://github.com/dleovl/Bootstrap/blob/faq/README.md).
+**A root hide Bootstrap FAQ** is available [here](https://github.com/dleovl/Bootstrap/blob/faq/README.md).
 
 ## Develop tweaks
 
@@ -55,7 +55,7 @@ You can join the roothide Discord server for support or general discussion [here
 
 ## The "Our Table" Icon
 
-The ProcursusTeam logo was originally made by [@TheAlphaStream](https://github.com/TheAlphaStream), and later edited by [@sourcelocation](https://github.com/sourcelocation).
+The ProcursusTeam logo was originally made by [@TheAlphaStream](https://github.com/TheAlphaStream) and later edited by [@sourcelocation](https://github.com/sourcelocation).
 
 ## Credits
 
